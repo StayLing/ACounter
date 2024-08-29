@@ -1,0 +1,10 @@
+name: Acounter
+version: '0.04'
+main: ashnodes.co.acounter.Acounter
+api-version: '1.18'
+load: STARTUP
+authors: [ StayLing ]
+website: https://ashnodes.co/
+commands:
+  wmc:
+    aliases: [ac, wmcounter, acounter]

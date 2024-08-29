@@ -1,0 +1,41 @@
+#
+# If you need more help you can join our discord server!
+# https://discord.gg/xyRMtVURw4
+#
+
+Language: English #Changing this part will not change anything for the current version. This feature will be added in the next versions!
+Version-Checker: true
+
+Menu:
+  Status: enabled
+  Gui-Rows: 4
+  Gui-Name: Acounter settings menu
+  Fill-Item:
+    Status: true
+    Name: "&r"
+    Material: GRAY_STAINED_GLASS_PANE
+  Combo-Counter:
+    Name: "&eCombo Counter"
+    Slot: 13
+    Material: NETHERITE_SWORD
+    Lore:
+      - ""
+      - "&7Allows you to see critical combos  "
+      - "&7when hitting living creatures"
+      - ""
+      - " &f• Status: {C-Status}"
+      - ""
+      - "&eClick to change the setting"
+  Combo-Sound:
+    Name: "&eCombo Sound"
+    Slot: 22
+    Material: NOTE_BLOCK
+    Lore:
+      - ""
+      - "&7Allows players to hear a sound"
+      - "&7when they make a critical combo  "
+      - "&7on living creatures."
+      - ""
+      - " &f• Status: {CS-Status}"
+      - ""
+      - "&eClick to change the setting"

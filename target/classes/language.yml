@@ -1,0 +1,64 @@
+#
+# If you need more help you can join our discord server!
+# https://discord.gg/xyRMtVURw4
+#
+
+prefix: "&fACounter §x&c&6&d&e&f&1›>"
+true_message: "&aTrue"
+false_message: "&cFalse"
+heart: "&c{heart} ❤" # If you leave it blank, it will not show title to players.
+player_only: "&cOnly players can use this command."
+combo_counter_enabled: "&aCombo Counter setting has been activated."
+combo_counter_disabled: "&cCombo Counter setting is disabled."
+combo_sound_enabled: "&aCombo Sound setting is activated."
+combo_sound_disabled: "&cCombo Sound setting is disabled."
+menu_disabled: "&cThe default menu setting has been disabled by the administrator."
+argument_not_found: "&cThe argument &f{arg} &cis not found in the plugin!"
+reload_message: "&aPlugin reloaded in &f{ms}ms!"
+update_settings: "&f{settings} &7setting for &f{player} &7has been updated to &f{value}!"
+data_not_found: "&f{player}'s &cdata not found!"
+no_permission: "&cYou do not have permission to use this command."
+command_list:
+  - ""
+  - "&fᴀᴄᴏᴜɴᴛᴇʀ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ"
+  - ""
+  - " &7▪ &a/wmc reload §x&c&6&d&e&f&1›> &7Allows you to restart the plugin file."
+  - ""
+  - " &7▪ &a/wmc menu §x&c&6&d&e&f&1›> &7Allows you to open the plugin's default player settings menu."
+  - ""
+  - " &7▪ &a/wmc user (player) (combo-counter/combo-sound) (true/false) §x&c&6&d&e&f&1›> &7Allows you to change players' data by command."
+  - ""
+  - " &7▪ &a/wmc discord §x&c&6&d&e&f&1›> &7Sends a Discord link to the plugin's help server."
+  - ""
+
+ActionBars:
+  Combo-Counter:
+    1:
+      Message: "&a⚔ Combo ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING # You can replace it with any sound you want that exists here in minecraft.
+      Pitch: 0.5 # You can change the speed of the sound here
+    2:
+      Message: "&a⚔ Double combo ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING
+      Pitch: 0.6
+    3:
+      Message: "&a⚔ Triple combo ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING
+      Pitch: 0.7
+    4:
+      Message: "&a⚔ Quad combo ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING
+      Pitch: 0.8
+    5:
+      Message: "&a⚔ PENTA ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING
+      Pitch: 0.9
+    Final:
+      Message: "&a⚔ Unstoppable! ⚔"
+      Sound-Effect: BLOCK_NOTE_BLOCK_PLING
+      Pitch: 1
+  Warn:
+    Series-Over:
+      Message: "&cYou lost your combo series!"
+      Sound-Effect: BLOCK_ANVIL_LAND
+      Pitch: 2
